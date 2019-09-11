@@ -1,34 +1,33 @@
 <template>
   <div class="hello">
-    <h1>{{msg}}</h1>
+    <info></info>
   </div>
 </template>
 
-<script>
+<script type="text/babel">
+import info from '@/docs/icon.md/' // 导入md文件
 export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Fr-UI组件库'
+      msg: 'Welcome to Your Vue.js App'
     }
+  },
+  components: {
+    info // 注册组件
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+<style>
+  .hljs {
+    line-height: 1.8;
+    font-size: 12px;
+    padding: 18px 24px;
+    background-color: #fafafa;
+    border: solid 1px #eaeefb;
+    margin-bottom: 25px;
+    border-radius: 4px;
+  }
 </style>
