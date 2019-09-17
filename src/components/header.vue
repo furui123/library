@@ -2,7 +2,7 @@
 <template>
   <div class="header">
       <div class="logo">
-        <div>Hai-UI</div>
+        <div>ah-UI</div>
       </div>
       <div class="list">
         <div class="list-son" @click="$router.push({ path: '/icon' })">组件</div>

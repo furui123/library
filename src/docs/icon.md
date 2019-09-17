@@ -14,7 +14,7 @@
     i
      font-size:20px
      margin-left:20px
-    
+
   .demo-icon .source > i {
     font-size: 24px;
     color: #8492a6;
@@ -63,7 +63,7 @@
 # Icon 图标
 
 ----
-```Hai-UI``` 使用开源的阿里 Iconfont 作为图标库，并制作成了 ```icon font```。
+```ah-UI``` 使用开源的阿里 Iconfont 作为图标库，并制作成了 ```icon font```。
 
 
 ### 使用

@@ -7,9 +7,9 @@
 可以在项目的入口文件中引入所有组件或所需组件
 
 ```js
-import FrUI from 'hai-ui' // 引入组件库
+import ahUI from 'ah-ui' // 引入组件库
 
-Vue.use(FrUI)
+Vue.use(ahUI)
 ```
 
 ### 单个组件按需使用
@@ -17,7 +17,7 @@ Vue.use(FrUI)
 可以局部注册所需的组件，适用于与其他框架组合使用的场景
 
 ```js
-import { HButton } from 'hai-ui'
+import { HButton } from 'ah-ui'
 
 export default {
   components: {

@@ -19,7 +19,7 @@ new Vue({
   router,
   components: { App },
   template: '<App/>'
-})
+}).$mount('#app')
 
 router.beforeEach((to, from, next) => {
   window.scrollTo({top: 0, behavior: 'smooth'})

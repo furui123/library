@@ -8,7 +8,7 @@
     "build": "gulp build"
   },
   "keywords": [
-    "hai-ui",
+    "ah-ui",
     "theme"
   ],
   "devDependencies": {
