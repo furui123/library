@@ -1,7 +1,7 @@
 {
   "name": "ah-ui",
-  "version": "1.0.2",
-  "description": "A Component Library for Vue.js",
+  "version": "1.0.0",
+  "description": "公共组件库",
   "author": "furui",
   "main": "examples/index.js",
   "private": false,
