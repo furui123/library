@@ -5,7 +5,7 @@
   "author": "furui",
   "main": "examples/index.js",
   "private": false,
-  "license": "MIT",
+  "license": "ISC",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
