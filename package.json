@@ -81,6 +81,10 @@
     "vue-router": "^3.0.1",
     "vue2-animate": "^2.1.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:furui123/library.git"
+  },
   "engines": {
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
