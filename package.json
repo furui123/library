@@ -1,6 +1,6 @@
 {
   "name": "ah-ui",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "公共组件库",
   "author": "furui",
   "main": "examples/index.js",
